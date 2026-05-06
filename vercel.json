@@ -7,6 +7,8 @@
     { "source": "/admin/admin.js", "destination": "/admin/admin.js" },
     { "source": "/admin/donhang.html", "destination": "/admin/donhang.html" },
     { "source": "/donhang.js", "destination": "/admin/donhang.js" },
-    { "source": "/admin/trangchu.html", "destination": "/admin/trangchu.html" }
+    { "source": "/admin/trangchu.html", "destination": "/admin/trangchu.html" },
+    { "source": "/css/:file", "destination": "/src/css/:file" },
+    { "source": "/src/img/:file", "destination": "/src/img/:file" }
   ]
 }
