@@ -7,7 +7,7 @@ export const renderDanhSachSP = (danhSach) => {
 
   if (state.danhSachSP === 0) {
     el.danhSachSP.innerHTML = `
-         <p> class="text-gray-500 text-center">Không tìm thấy sản phẩm nào</p>
+         <p class="text-gray-500 text-center">Không tìm thấy sản phẩm nào</p>
         `;
     return;
   }
