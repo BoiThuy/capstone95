@@ -5,12 +5,12 @@ import { showChiTietSP } from "./popup-flow.js";
 export const renderDanhSachSP = (danhSach) => {
   el.danhSachSP.innerHTML = "";
 
-  if (state.danhSachSP === 0) {
-    el.danhSachSP.innerHTML = `
-         <p class="text-gray-500 text-center">Không tìm thấy sản phẩm nào</p>
-        `;
-    return;
-  }
+ if (!danhSach || danhSach.length === 0) {
+  el.danhSachSP.innerHTML = `
+    <p class="text-gray-500 text-center">Không tìm thấy sản phẩm nào</p>
+  `;
+  return;
+}
   const content = danhSach.map((phone) => {
     return `
         <div
