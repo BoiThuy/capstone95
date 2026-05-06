@@ -3,9 +3,9 @@
     { "source": "/", "destination": "/src/user/index.html" },
     { "source": "/admin/admin.html", "destination": "/src/admin/admin.html" },
     { "source": "/admin/admin.js", "destination": "/src/admin/admin.js" },
-    { "source": "/donhang.html", "destination": "/src/admin/donhang.html" },
+    { "source": "/admin/donhang.html", "destination": "/src/admin/donhang.html" },
     { "source": "/donhang.js", "destination": "/src/admin/donhang.js" },
-    { "source": "/trangchu.html", "destination": "/src/admin/trangchu.html" },
+    { "source": "/admin/trangchu.html", "destination": "/src/admin/trangchu.html" },
 
     { "source": "/user.js", "destination": "/src/user/user.js" },
     { "source": "/user-js/:file", "destination": "/src/user/user-js/:file" },
